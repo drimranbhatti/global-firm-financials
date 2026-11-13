@@ -1,0 +1,33 @@
+region,component (per 100 days),coef (ROA pts),t,firm-years,firms
+North America,CCC,-0.005,-0.05,99882,12387
+North America,DSO,-0.315,-2.934,101815,12505
+North America,DIO,-0.512,-2.494,100665,12428
+North America,DPO,-0.219,-2.093,101581,12479
+Western Europe,CCC,-0.171,-2.817,74846,7427
+Western Europe,DSO,-0.496,-5.978,84867,8054
+Western Europe,DIO,-0.478,-3.483,74942,7430
+Western Europe,DPO,-0.224,-3.415,75019,7432
+Japan,CCC,-0.077,-0.4,53999,4132
+Japan,DSO,-0.222,-0.851,54079,4137
+Japan,DIO,-0.236,-0.99,54006,4132
+Japan,DPO,-0.065,-0.379,54012,4133
+Other developed Asia-Pacific,CCC,-0.235,-5.159,96611,8984
+Other developed Asia-Pacific,DSO,-0.172,-2.717,102136,9210
+Other developed Asia-Pacific,DIO,-0.204,-2.845,96653,8985
+Other developed Asia-Pacific,DPO,0.097,1.356,96729,8985
+China,CCC,-0.143,-3.142,52969,4677
+China,DSO,-0.707,-8.255,53203,4679
+China,DIO,-0.162,-2.347,52983,4678
+China,DPO,-0.463,-5.946,53016,4678
+India,CCC,-0.058,-2.06,48020,3636
+India,DSO,-0.153,-5.16,49013,3649
+India,DIO,-0.09,-1.773,48033,3637
+India,DPO,-0.179,-4.91,48045,3637
+OIC members,CCC,-0.013,-0.304,42505,3427
+OIC members,DSO,-0.195,-3.216,43857,3460
+OIC members,DIO,-0.071,-1.227,42542,3428
+OIC members,DPO,-0.262,-3.225,42542,3428
+Other emerging,CCC,-0.011,-0.182,52500,4503
+Other emerging,DSO,-0.334,-4.613,53723,4550
+Other emerging,DIO,0.143,1.562,52573,4503
+Other emerging,DPO,-0.219,-2.645,52583,4503

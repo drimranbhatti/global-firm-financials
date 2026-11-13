@@ -1,0 +1,81 @@
+region,model,variable,coef,t,N
+North America,leverage,tangibility,0.24,12.6406,100146
+North America,leverage,roa,-0.1594,-16.4876,100146
+North America,leverage,size,-0.0392,-11.0771,100146
+North America,leverage,sales_growth,-0.0041,-3.1627,100146
+North America,cash,size,-0.0242,-14.3412,101777
+North America,cash,roa,0.0326,7.9206,101777
+North America,cash,sales_growth,0.0005,0.6196,101777
+North America,cash,capex,-0.2074,-14.7124,101777
+North America,cash,leverage,-0.1095,-23.3892,101777
+North America,cash,rd,0.0336,13.7803,101777
+Western Europe,leverage,tangibility,0.2531,14.5246,84903
+Western Europe,leverage,roa,-0.18,-15.6413,84903
+Western Europe,leverage,size,-0.0029,-0.8777,84903
+Western Europe,leverage,sales_growth,-0.0022,-2.174,84903
+Western Europe,cash,size,-0.0184,-9.7365,79513
+Western Europe,cash,roa,0.0247,3.5385,79513
+Western Europe,cash,sales_growth,0.0011,1.2977,79513
+Western Europe,cash,capex,-0.1709,-11.7058,79513
+Western Europe,cash,leverage,-0.1257,-19.9847,79513
+Western Europe,cash,rd,0.0255,5.5547,79513
+Japan,leverage,tangibility,0.2795,13.4216,54076
+Japan,leverage,roa,-0.4436,-13.9113,54076
+Japan,leverage,size,0.0551,12.1925,54076
+Japan,leverage,sales_growth,0.0084,2.4376,54076
+Japan,cash,size,-0.0133,-4.076,53508
+Japan,cash,roa,0.0914,5.1641,53508
+Japan,cash,sales_growth,-0.0124,-4.5438,53508
+Japan,cash,capex,-0.2734,-14.7446,53508
+Japan,cash,leverage,-0.1292,-14.0868,53508
+Japan,cash,rd,0.0175,0.9205,53508
+Other developed Asia-Pacific,leverage,tangibility,0.1683,15.4222,102144
+Other developed Asia-Pacific,leverage,roa,-0.1775,-18.9944,102144
+Other developed Asia-Pacific,leverage,size,-0.0036,-1.1882,102144
+Other developed Asia-Pacific,leverage,sales_growth,0.001,1.168,102144
+Other developed Asia-Pacific,cash,size,-0.0338,-19.2783,99093
+Other developed Asia-Pacific,cash,roa,-0.0157,-2.8716,99093
+Other developed Asia-Pacific,cash,sales_growth,0.0039,5.4919,99093
+Other developed Asia-Pacific,cash,capex,-0.2047,-15.4932,99093
+Other developed Asia-Pacific,cash,leverage,-0.1714,-26.3987,99093
+Other developed Asia-Pacific,cash,rd,0.0189,4.599,99093
+China,leverage,tangibility,0.2181,13.4973,53214
+China,leverage,roa,-0.2952,-12.7357,53214
+China,leverage,size,0.0261,8.6016,53214
+China,leverage,sales_growth,0.0017,1.0747,53214
+China,cash,size,0.0014,0.598,52465
+China,cash,roa,-0.0261,-2.2587,52465
+China,cash,sales_growth,0.0005,0.3985,52465
+China,cash,capex,-0.2076,-13.8306,52465
+China,cash,leverage,-0.2559,-25.3131,52465
+China,cash,rd,-0.0417,-2.4954,52465
+India,leverage,tangibility,0.2658,12.9056,49021
+India,leverage,roa,-0.5104,-19.4068,49021
+India,leverage,size,-0.01,-2.3931,49021
+India,leverage,sales_growth,-0.0011,-1.0315,49021
+India,cash,size,-0.0077,-5.1777,43487
+India,cash,roa,0.0373,3.8092,43487
+India,cash,sales_growth,0.0017,1.8791,43487
+India,cash,capex,-0.0248,-3.1346,43487
+India,cash,leverage,-0.0698,-14.3888,43487
+India,cash,rd,0.0069,0.7559,43487
+OIC members,leverage,tangibility,0.1822,10.0592,43861
+OIC members,leverage,roa,-0.425,-17.7431,43861
+OIC members,leverage,size,0.0154,3.0429,43861
+OIC members,leverage,sales_growth,0.0032,1.7066,43861
+OIC members,cash,size,-0.0072,-2.9475,41031
+OIC members,cash,roa,0.0406,4.0894,41031
+OIC members,cash,sales_growth,0.0012,1.148,41031
+OIC members,cash,capex,-0.1087,-8.6132,41031
+OIC members,cash,leverage,-0.0971,-14.7897,41031
+OIC members,cash,rd,0.0215,0.883,41031
+Other emerging,leverage,tangibility,0.1782,11.4508,53733
+Other emerging,leverage,roa,-0.285,-14.5775,53733
+Other emerging,leverage,size,0.0097,2.2114,53733
+Other emerging,leverage,sales_growth,-0.0018,-1.1626,53733
+Other emerging,cash,size,-0.0053,-2.4552,49926
+Other emerging,cash,roa,0.0475,4.5827,49926
+Other emerging,cash,sales_growth,0.002,2.0699,49926
+Other emerging,cash,capex,-0.1113,-9.2952,49926
+Other emerging,cash,leverage,-0.1035,-16.4917,49926
+Other emerging,cash,rd,0.056,2.4385,49926

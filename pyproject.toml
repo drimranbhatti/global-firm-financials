@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "firmpanel"
+version = "0.1.0"
+description = "Cross-country firm-level corporate finance analysis on Compustat Global and North America"
+requires-python = ">=3.10"
+authors = [{name = "Dr. Muhammad Imran Bhatti"}]
+license = {text = "MIT"}
+dependencies = ["numpy", "pandas", "pyarrow", "linearmodels", "statsmodels"]
+
+[project.optional-dependencies]
+notebooks = ["matplotlib", "seaborn", "jupyter"]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
