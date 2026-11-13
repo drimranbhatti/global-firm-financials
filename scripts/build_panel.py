@@ -30,7 +30,8 @@ if __name__ == "__main__":
     for c in r.columns.drop(["zombie", "size", "age"]):
         r[c] = clean.winsorize(r[c].replace([np.inf, -np.inf], np.nan), d["fyear"])
     oic = set(pd.read_csv(ROOT / "data" / "oic_members.csv")["iso3"])
-    keep = ["gvkey", "fyear", "loc", "curcd", "source", "gsector", "at_usd", "sale_usd"]
+    d["industry_group"] = d["gind"].astype("string").str[:4]               # GICS industry group (24 groups)
+    keep = ["gvkey", "fyear", "loc", "curcd", "source", "gsector", "industry_group", "at_usd", "sale_usd"]
     panel = pd.concat([d[keep], r], axis=1)
     # market values exist only in Compustat North America (price x shares outstanding, local currency)
     mv = d["prcc_f"] * d["csho"]

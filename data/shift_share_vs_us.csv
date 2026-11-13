@@ -1,0 +1,39 @@
+country,region,firms,gap to US (sum),mix effect,within-industry effect
+CAN,North America,2399,-32.6,-7.9,-24.6
+AUS,Other developed Asia-Pacific,2315,-2.7,0.0,-2.7
+GBR,Western Europe,2629,3.2,-2.7,5.9
+ZAF,Other emerging,361,5.1,2.8,2.3
+NZL,Other developed Asia-Pacific,193,8.1,-3.4,11.5
+POL,Other emerging,763,13.7,6.7,7.0
+JPN,Japan,4255,15.2,10.3,4.9
+BEL,Western Europe,151,15.4,4.8,10.6
+NLD,Western Europe,257,18.9,1.6,17.3
+NOR,Western Europe,366,19.0,-10.1,29.1
+ESP,Western Europe,187,22.1,1.7,20.4
+IDN,OIC members,537,24.7,-0.8,25.6
+FIN,Western Europe,195,31.2,8.7,22.5
+SWE,Western Europe,915,32.9,6.6,26.3
+ITA,Western Europe,430,33.5,8.3,25.2
+DNK,Western Europe,199,33.7,4.9,28.8
+DEU,Western Europe,1045,33.9,8.2,25.7
+THA,Other emerging,642,34.0,7.4,26.6
+PHL,Other emerging,186,35.2,-9.9,45.1
+KOR,Other developed Asia-Pacific,1997,35.4,19.2,16.2
+FRA,Western Europe,1036,35.9,3.6,32.3
+BRA,Other emerging,349,36.3,8.9,27.3
+RUS,Other emerging,221,37.2,-4.4,41.6
+LKA,Other emerging,197,38.2,1.6,36.6
+SGP,Other developed Asia-Pacific,795,39.3,6.4,32.9
+HKG,Other developed Asia-Pacific,1453,40.9,6.2,34.7
+CHL,Other emerging,151,44.7,0.9,43.9
+TUR,OIC members,324,48.7,15.5,33.2
+IND,India,3654,50.7,14.6,36.1
+CHE,Western Europe,288,52.7,11.6,41.1
+TWN,Other developed Asia-Pacific,2186,58.9,27.7,31.2
+ISR,Other developed Asia-Pacific,497,59.1,7.4,51.7
+CHN,China,4695,59.8,13.1,46.7
+PAK,OIC members,334,60.7,21.6,39.2
+VNM,Other emerging,483,64.5,8.7,55.8
+MYS,OIC members,1145,75.4,8.3,67.1
+GRC,Western Europe,286,89.1,4.1,85.0
+BGD,OIC members,206,150.2,21.8,128.4

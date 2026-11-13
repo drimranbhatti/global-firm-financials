@@ -15,11 +15,16 @@ A cross-country corporate-finance study built from **Compustat Global and Compus
 | What drives trade credit (PhD design)? | Trade credit received is passed on (β = 0.24, 0.35 in OIC countries). Cash, growth and intangibles reduce it, and fixed effects are required in every group |
 | How common are zombie firms? | 12% of established indebted firms in North America and India, 8% in Europe, 1.6% in Japan. Rising since 2008, and only a quarter to a third recover within three years |
 | Do US firms invest on Q or cash flow? | On Q (t = 10.6). Cash-flow sensitivity is zero or negative, so the classic financing-constraint signal is gone |
+| USA vs EU: how much cash is tied up? | EU median cycle 78 days vs 50 in the US (UK 51). Collecting at US speeds would release about **USD 450 billion** in EU receivables (2019, excluding carmakers' finance receivables), mostly in France and Germany |
+| Do services run on customer money? | Telecoms, hotels, restaurants, education and media run 15-day cycles and 38% are negative. Goods producers need ~100 days. But outside services, a negative cycle usually marks a loss-making firm stretching suppliers (ROA 20-28 points below peers) |
+| Are country gaps sector mix or behaviour? | Behaviour: within-industry differences explain a median 78% of each country's gap to the US |
 
 <p float="left">
   <img src="images/working_capital_regions.png" width="98%" />
   <img src="images/leverage_cash_trends.png" width="49%" />
   <img src="images/zombies_distress_trends.png" width="49%" />
+  <img src="images/usa_eu_working_capital.png" width="49%" />
+  <img src="images/business_models.png" width="49%" />
 </p>
 
 ## Notebooks
@@ -32,6 +37,8 @@ A cross-country corporate-finance study built from **Compustat Global and Compus
 | 4 | [Trade credit determinants](notebooks/04_trade_credit_determinants.ipynb) | PhD design on all countries; FE vs pooled; robust Mundlak-Hausman test; 2008-09 crisis by cash tercile |
 | 5 | [Distress and zombie firms](notebooks/05_distress_and_zombie_firms.ipynb) | Altman Z'' (1995), zombie definitions (broad vs established), country rankings, transition outcomes |
 | 6 | [North America: market values](notebooks/06_north_america_market_based_analysis.ipynb) | Tobin's Q, market leverage, original Altman Z, investment-Q-cash flow regressions, US vs Canada |
+| 7 | [USA vs EU](notebooks/07_usa_vs_eu.ipynb) | Working capital, profitability, leverage and zombies for US, EU-27 and UK; EU country ranking; cash-release estimate; FE regressions by bloc |
+| 8 | [Sector business models worldwide](notebooks/08_sector_business_models_worldwide.ipynb) | Cycles by industry and region, no-inventory and negative-cycle firms, shift-share of country gaps, trends, and the profitability of negative-cycle firms |
 
 ## Data and licensing
 Compustat is licensed by S&P Global Market Intelligence through WRDS, and **firm-level data cannot be redistributed**. This repository therefore contains:
