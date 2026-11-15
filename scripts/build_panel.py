@@ -44,4 +44,9 @@ if __name__ == "__main__":
     panel = panel.merge(gdp.rename(columns={"iso3": "loc", "year": "fyear"}), on=["loc", "fyear"], how="left")
     panel["fyear"] = panel["fyear"].astype(int)
     panel.to_parquet(a.out, index=False)
+    # raw statement items (local currency, plus the USD rate) for notebooks 09-14; same rows and order as the panel
+    RAW = ["sale", "cogs", "xsga", "oiadp", "ebit", "ib", "oancf", "txt", "xint", "dp", "dvt", "xrd", "at", "act", "lct", "che", "rect", "invt",
+           "ppent", "intan", "dlc", "dltt", "lt", "ceq", "seq", "re", "emp", "prcc_f", "csho", "lcu_per_usd", "gind"]
+    raw_out = pathlib.Path(a.out).with_name("panel_raw.parquet")
+    d[["gvkey", "fyear"] + RAW].assign(fyear=lambda x: x["fyear"].astype(int)).reset_index(drop=True).to_parquet(raw_out, index=False)
     print(panel.shape, panel["gvkey"].nunique(), "firms,", panel["loc"].nunique(), "countries; USD size missing:", round(panel["size"].isna().mean(), 3))

@@ -18,6 +18,13 @@ A cross-country corporate-finance study built from **Compustat Global and Compus
 | USA vs EU: how much cash is tied up? | EU median cycle 78 days vs 50 in the US (UK 51). Collecting at US speeds would release about **USD 450 billion** in EU receivables (2019, excluding carmakers' finance receivables), mostly in France and Germany |
 | Do services run on customer money? | Telecoms, hotels, restaurants, education and media run 15-day cycles and 38% are negative. Goods producers need ~100 days. But outside services, a negative cycle usually marks a loss-making firm stretching suppliers (ROA 20-28 points below peers) |
 | Are country gaps sector mix or behaviour? | Behaviour: within-industry differences explain a median 78% of each country's gap to the US |
+| Where does return on equity come from? | Margins in emerging markets (China 7.2% net margin, 0.6x turnover), turnover and debt in rich ones. Asset turnover fell almost everywhere since 2008 |
+| Can machine learning predict distress? | Yes: gradient boosting ranks next-year interest-cover failures with AUC 0.83 out of sample (Altman Z'' 0.59), and its riskiest decile holds 38% of failures |
+| Does the Beneish M-score work outside the US? | It flags 4.5% of firm-years in Japan and 27% in India, and flagged firms lose 1.8 more ROA points and are 4 points likelier to report a loss two years later |
+| Are costs sticky? | Everywhere: SG&A rises 0.49% per 1% sales rise in North America but falls only 0.37% per 1% fall; China is the stickiest |
+| Are markups and concentration rising? | Sales-weighted markups rose in North America, Europe, Japan and India; US telecoms (+32 pts top-4 share) and tech hardware (+16) concentrated most |
+| How many firms are Shariah-compliant? | 47% pass an asset-based screen, 38% in North America to 55% in emerging markets. Compliant firms are more profitable and safer, and US compliant stocks beat others by 13 pts in 2008 |
+| What protected firms in 2020? | Cash: top-quartile cash holders grew 2020 sales by 1%, the bottom quartile lost 5% |
 
 <p float="left">
   <img src="images/working_capital_regions.png" width="98%" />
@@ -39,6 +46,14 @@ A cross-country corporate-finance study built from **Compustat Global and Compus
 | 6 | [North America: market values](notebooks/06_north_america_market_based_analysis.ipynb) | Tobin's Q, market leverage, original Altman Z, investment-Q-cash flow regressions, US vs Canada |
 | 7 | [USA vs EU](notebooks/07_usa_vs_eu.ipynb) | Working capital, profitability, leverage and zombies for US, EU-27 and UK; EU country ranking; cash-release estimate; FE regressions by bloc |
 | 8 | [Sector business models worldwide](notebooks/08_sector_business_models_worldwide.ipynb) | Cycles by industry and region, no-inventory and negative-cycle firms, shift-share of country gaps, trends, and the profitability of negative-cycle firms |
+| 9 | [Performance: DuPont, persistence, growth, productivity](notebooks/09_performance_dupont_growth_productivity.ipynb) | ROE decomposition by region and industry, profit persistence and quintile transitions, high-growth firms, sales per employee |
+| 10 | [Markups and concentration](notebooks/10_markups_and_concentration.ipynb) | Sales/COGS markups, within vs reallocation decomposition, top-4 sales and top-10% profit shares, concentration and ROA |
+| 11 | [Earnings quality, Beneish, cost stickiness, tax](notebooks/11_earnings_quality_beneish_stickiness_tax.ipynb) | Sloan accruals, modified Jones discretionary accruals by country, Beneish M-score with validation, SG&A stickiness, effective tax rates |
+| 12 | [Distress prediction with ML, and COVID-19](notebooks/12_distress_prediction_ml_and_covid.ipynb) | Logistic regression and gradient boosting vs Altman Z'', calibration, feature importance; 2019 traits that predicted 2020 resilience |
+| 13 | [North America: factor portfolios and payout](notebooks/13_north_america_factors_and_payout.ipynb) | Value, profitability, investment, size and leverage quintile portfolios; dividend payers and Lintner smoothing in the US and Canada |
+| 14 | [Shariah screening worldwide](notebooks/14_shariah_screening_worldwide.ipynb) | Asset-based Shariah screens by country, which screen binds, performance and crisis behaviour of compliant firms, US stock returns |
+
+**Peer benchmark tool:** [drimranbhatti.github.io/global-firm-financials](https://drimranbhatti.github.io/global-firm-financials/). Enter your ratios and see your percentile among listed peers in 49 markets and 20 industries (aggregate percentiles only; built by `scripts/build_benchmark.py`).
 
 ## Data and licensing
 Compustat is licensed by S&P Global Market Intelligence through WRDS, and **firm-level data cannot be redistributed**. This repository therefore contains:
